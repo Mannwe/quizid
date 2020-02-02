@@ -1,0 +1,49 @@
+/**********************************************************************************/
+/*    			 Hoja de estilos general de la aplicación:  				      */
+/**********************************************************************************/
+
+body{
+	background-color: #edf1f5;
+	background-image: linear-gradient(white, #fafae8, #f7f7c8);
+	min-height: 100vh;
+	font-family: 'Verdana'
+}
+
+._btn{
+	cursor: pointer;
+}
+
+._bg-light{
+	background-color: #bcc7d1;
+}
+
+.word{
+	height: calc(1em + .75rem);
+	border: 0.1em dashed #ccc;
+}
+
+.header{
+	color: #343a40 !important;
+	text-align: center;
+}
+
+.detailButton{
+	float: right;
+}
+
+section{
+	margin-top: 2rem;
+}
+
+/* Ocultamos el selector del fichero y lo seleccionamos
+   a través de otro botón. Así también ocultamos el mensaje */
+input[type='file'] {
+  opacity:0    
+}
+
+@media (max-width: 575.98px){
+	#queryFilter label{
+		font-size: 0.6rem;
+	}
+}
+
